@@ -10,7 +10,7 @@ const App = () => {
       <h1>Parent Component</h1>
 
       {/* Display selected option */}
-      <p>{selectedOption}</p>
+      <p>Selected Option: {selectedOption}</p>
 
       {/* ChildComponent1 */}
       <div>
