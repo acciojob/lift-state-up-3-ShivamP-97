@@ -2,11 +2,15 @@ import React, { useState } from "react";
 import './../styles/App.css';
 
 const App = () => {
-  const [selectedOption, setSelectedOption] = useState(""); // Parent state
+  const [selectedOption, setSelectedOption] = useState("");
 
   return (
     <div className="parent">
-      <h1>Selected Option: {selectedOption || "None"}</h1>
+      {/* Parent Component label */}
+      <h1>Parent Component</h1>
+
+      {/* Display selected option in <p> */}
+      <p>{selectedOption}</p>
 
       {/* ChildComponent1 */}
       <div>
